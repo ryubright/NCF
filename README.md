@@ -1,7 +1,7 @@
 # NCF
 PyTorch Implementation of "Neural Collaborative Filtering" at WWW'17
 
-I used the ML-100K dataset.
+I used the [ml-100k](https://grouplens.org/datasets/movielens/).
 
 <br>
 

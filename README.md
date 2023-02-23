@@ -13,7 +13,9 @@ Concatenate user and item embeddings, then pass through Neural CF Layers to pred
 <br>
 
 ## 2. Fusion of GMF and MLP (NeuMF)
-Fuse GMF with linear features and MLP with non-linear features in the NCF framework
+GMF that applies a linear kernel to model the latent feature interactions, and MLP that uses a non-linear kernel to learn the interaction function from data
+
+Fuse GMF and MLP under the NCF framework
 
 ![image](https://user-images.githubusercontent.com/59256704/220968820-14ca9f1a-f411-449e-81dd-0c53ea2d8b18.png)
 
